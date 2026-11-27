@@ -1,9 +1,13 @@
-Guess My Fridge — app de test v1
+Guess My Fridge — app de test v1.1 (codes-barres)
 ================================
 Fichiers : index.html, app.js, style.css, jsqr.js (lecteur QR, licence Apache 2.0),
+barcode-detector.js + zxing_reader.wasm (lecteur QR et codes-barres, ZXing, licence MIT),
 sw.js (fonctionnement hors ligne), manifest.webmanifest, icons/.
 
 L'app doit être servie en https (obligatoire pour la caméra).
 Mise en ligne gratuite : GitHub Pages (voir les instructions dans la conversation).
 Les données restent sur le téléphone (IndexedDB), sans compte ni serveur.
 Pense à « Exporter une sauvegarde » de temps en temps (Réglages ⚙).
+
+Codes-barres : les produits sont reconnus grâce à Open Food Facts (connexion nécessaire
+au premier scan d'un produit, ensuite mémorisé sur le téléphone).
